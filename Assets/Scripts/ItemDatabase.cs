@@ -6,16 +6,14 @@ using UnityEngine;
 public class ItemDescription
 {
     public string Name;
-    public Texture2D Image;
+    public Texture2D image;
 }
 
 
 public class InventoryItem{
-    public ItemDescription Item;
-    public int Quantity;
-    
+    public ItemDescription item;
+    public int count;
     public bool isEmpty => this == Empty;
-
     public const int MaxCount = 50;
     public static readonly InventoryItem Empty = new InventoryItem();
 }
@@ -33,15 +31,15 @@ public class ItemDatabase: ScriptableObject
         for (int i = 0; i < count; i++)
         {
             var random = Random.Range(0, 1f);
-            if random > 0.5f {
+            if (random > 0.5f) {
                 result.Add(InventoryItem.Empty);
                 continue;
             }
 
-            var item = new InventoryItem();
-            item.Item = items[Random.Range(0, items.Count)];
-            item.Quantity = Random.Range(1, InventoryItem.MaxCount);
-            result.Add(item);
+            var newItem = new InventoryItem();
+            newItem.item = items[Random.Range(0, items.Count)];
+            newItem.count = Random.Range(1, InventoryItem.MaxCount);
+            result.Add(newItem);
         }
         return result;
     }

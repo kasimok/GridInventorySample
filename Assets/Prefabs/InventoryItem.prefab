@@ -395,7 +395,7 @@ MonoBehaviour:
         Raw: 20.579863
         Type: 0
       Y:
-        Raw: 25.52
+        Raw: 25.520004
         Type: 0
       Z:
         Raw: 0
@@ -911,7 +911,7 @@ MonoBehaviour:
       Mode: 1
     SoftenEdges: 1
     FillEnabled: 1
-  texture: {fileID: 2800000, guid: f7434d92d71c4f54ea0e9baf205f578e, type: 3}
+  texture: {fileID: 2800000, guid: 546307d49bb03451fbb1dc1e715b81e7, type: 3}
   sprite: {fileID: 0}
 --- !u!1 &8823708688028352318
 GameObject:
@@ -924,6 +924,7 @@ GameObject:
   - component: {fileID: 8823708688028352289}
   - component: {fileID: 8823708688028352291}
   - component: {fileID: 8823708688028352288}
+  - component: {fileID: 2811231013301056101}
   m_Layer: 0
   m_Name: InventoryItem
   m_TagString: Untagged
@@ -1124,7 +1125,7 @@ MonoBehaviour:
     LightingModel: 0
     ShadowCastingMode: 2
     ReceiveShadows: 1
-  PreviewSize: {x: 1, y: 1, z: 0}
+  PreviewSize: {x: 100, y: 100, z: 0}
   visuals:
     Color: {r: 0.276, g: 0.24415384, b: 0.24415384, a: 1}
     CornerRadius:
@@ -1194,6 +1195,30 @@ MonoBehaviour:
     FillEnabled: 1
   texture: {fileID: 0}
   sprite: {fileID: 0}
+--- !u!114 &2811231013301056101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8823708688028352318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a75001f00536d40ad613f41ed2bdc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visuals:
+    rid: 1128722989046562819
+  references:
+    version: 2
+    RefIds:
+    - rid: 1128722989046562819
+      type: {class: InventoryItemVisuals, ns: , asm: Assembly-CSharp}
+      data:
+        contentRoot: {fileID: 8823708688545070702}
+        image: {fileID: 8823708687588850840}
+        countBarFill: {fileID: 8823708688427573178}
+        count: {fileID: 8823708687560400073}
 --- !u!1 &8823708688427573176
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,53 +13,51 @@ MonoBehaviour:
   m_Name: InventoryDatabase
   m_EditorClassIdentifier: 
   items:
-  - Name: Coal Ore
-    Image: {fileID: 2800000, guid: 34657c41dd1acc744bf6f261f8f58dd9, type: 3}
-  - Name: Diamond Ore
-    Image: {fileID: 2800000, guid: 09c15028c032e604b98424a55c4b75d1, type: 3}
-  - Name: Emerald Ore
-    Image: {fileID: 2800000, guid: 967baa8cd920dff459c08f6588098d9f, type: 3}
-  - Name: Gold Ore
-    Image: {fileID: 2800000, guid: 47b70246e6f2c434b8914d8c30c6b298, type: 3}
-  - Name: Icon Ore
-    Image: {fileID: 2800000, guid: f0b213e688c5db34baf3bd1a345c6db1, type: 3}
-  - Name: Runy Ore
-    Image: {fileID: 2800000, guid: 39e4781f0aff6924193725b27eb9be0d, type: 3}
-  - Name: Silver Ore
-    Image: {fileID: 2800000, guid: b18b1dfa943017d42b2175f2ac2abfe4, type: 3}
-  - Name: Apple
-    Image: {fileID: 2800000, guid: eb37f8d5be4a7bd4b88e6b1efe870b4c, type: 3}
-  - Name: Iron Hoe
-    Image: {fileID: 2800000, guid: 20d2931fe05b59b478150bc6cae3fab0, type: 3}
-  - Name: Arrow
-    Image: {fileID: 2800000, guid: 161a19856b8dd0340afc59ebb7c7fd66, type: 3}
-  - Name: Icon Axe
-    Image: {fileID: 2800000, guid: f765ee28d58817643a40caace27f4a79, type: 3}
-  - Name: Sliver Axe
-    Image: {fileID: 2800000, guid: fd1b63f2692a9464dbb98355e9f4ce6b, type: 3}
-  - Name: Bow
-    Image: {fileID: 2800000, guid: 7360c0a5f3c1f914998909dbbc7777ae, type: 3}
-  - Name: Bowl
-    Image: {fileID: 2800000, guid: b9cd9323bca00cd409238e65c1493b70, type: 3}
-  - Name: Bricks
-    Image: {fileID: 2800000, guid: 8561b292755e2bc43ad5c1978453e7cd, type: 3}
-  - Name: Fence
-    Image: {fileID: 2800000, guid: 5e43108e139b0454c9dd7bc1081fdd1d, type: 3}
-  - Name: Fish
-    Image: {fileID: 2800000, guid: f078e1b60c9f2da4cbf79235ddde3945, type: 3}
+  - Name: Iron Hammer
+    image: {fileID: 2800000, guid: ea832018af1bc4891af6b671ee261fff, type: 3}
+  - Name: Bronze Hammer
+    image: {fileID: 2800000, guid: 9c32d417a9c854f56bc13e86708f8b36, type: 3}
+  - Name: 
+    image: {fileID: 0}
+  - Name: Silver Hammer
+    image: {fileID: 2800000, guid: 9a048adecd997408997117549de9c772, type: 3}
+  - Name: Silver Sword
+    image: {fileID: 2800000, guid: 0b07af75a6b5c4302bef3011432c57a5, type: 3}
   - Name: Bronze Sword
-    Image: {fileID: 2800000, guid: d50b396cf2aad1649a1576015d790cf9, type: 3}
-  - Name: Fishing Pole
-    Image: {fileID: 2800000, guid: c716080f6e2393b49a0198acbcf023e4, type: 3}
-  - Name: Stones
-    Image: {fileID: 2800000, guid: bd6fb4c0ea3aca448936786c0e880367, type: 3}
-  - Name: Wheat
-    Image: {fileID: 2800000, guid: 41b278a20731a9c4a8e4db47f4952beb, type: 3}
-  - Name: Icon Shovel
-    Image: {fileID: 2800000, guid: d434cbbbb8b9dcb458e262b102ae67b3, type: 3}
-  - Name: Seed
-    Image: {fileID: 2800000, guid: 8d3a6eab6ce66574299f7f4f0cf64cd6, type: 3}
+    image: {fileID: 2800000, guid: 17da13a5dcca7407f85ecdf33c48a705, type: 3}
+  - Name: Iron Sword
+    image: {fileID: 2800000, guid: 38b7d8bef595f4a92bba76034e0a0565, type: 3}
+  - Name: Coal Ore
+    image: {fileID: 2800000, guid: 91e8aed6fb077443f9fe9295feab89b0, type: 3}
+  - Name: Diamond Ore
+    image: {fileID: 2800000, guid: e9038908a52064482a6f1673ca759300, type: 3}
+  - Name: Emerald Ore
+    image: {fileID: 2800000, guid: 16b05a020b7a7406ea091dc6b45fc433, type: 3}
+  - Name: Gold Ore
+    image: {fileID: 2800000, guid: 02b66c5221f5b482daeb7faceb2c3eda, type: 3}
+  - Name: Iron Ore
+    image: {fileID: 2800000, guid: f3661d0e944c94c98b5ab854b32625bf, type: 3}
+  - Name: Ruby Ore
+    image: {fileID: 2800000, guid: c2a3733cd62d44cda8822f17740c20f5, type: 3}
+  - Name: Silver Ore
+    image: {fileID: 2800000, guid: 54ff9d2635133417c810cefaa4ca412a, type: 3}
+  - Name: Bricks
+    image: {fileID: 2800000, guid: 8561b292755e2bc43ad5c1978453e7cd, type: 3}
+  - Name: Apple
+    image: {fileID: 2800000, guid: 6dbd16c70a6354985aac3aad645f7a02, type: 3}
+  - Name: Arrow
+    image: {fileID: 2800000, guid: 6621c32bc76da43d7a02b47c1a9988be, type: 3}
+  - Name: Iron Axe
+    image: {fileID: 2800000, guid: 5aa3723b989134ac4ae06bb1afc021a3, type: 3}
+  - Name: Silver Axe
+    image: {fileID: 2800000, guid: 9c100de6572354db6825c3e2fb91c5d3, type: 3}
+  - Name: Barrel
+    image: {fileID: 2800000, guid: 164a37a515dde634387d438e9212475d, type: 3}
+  - Name: Fish
+    image: {fileID: 2800000, guid: 39204827d107f4d41ba36c6165aa9443, type: 3}
+  - Name: Silver Hoe
+    image: {fileID: 2800000, guid: a7edc3fb86e7b404facc1453807caad5, type: 3}
+  - Name: Fish Pole
+    image: {fileID: 2800000, guid: 8e4e011f6df264875bbc9502a7a80dc2, type: 3}
   - Name: Silver Flail
-    Image: {fileID: 2800000, guid: 1266b2f21cd1a6242afc5970554167de, type: 3}
-  - Name: Icon Flail
-    Image: {fileID: 2800000, guid: ae6cdd6c793341b4ab01d11948ddc79a, type: 3}
+    image: {fileID: 2800000, guid: 416760184335349c4a58710ac66fa281, type: 3}
